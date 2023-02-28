@@ -1,0 +1,36 @@
+input  {
+    width: 1000px
+}
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#viz1677491846641{
+    margin-left: auto;
+    margin-right: auto;
+}
+P{
+    text-align: justify;
+}
+button{
+    font-size: small;
+}
+a{
+    font-size: x-large;
+}
+
+li{
+    text-align: center;
+}
+#texxt{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#world-cloud{
+    margin-left: auto;
+    margin-right: auto;
+}
