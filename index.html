@@ -3,37 +3,65 @@
         <title>info viz</title>
         <link rel="stylesheet" 
       href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+       
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
-<body>
-    <h1>Crime & Population analysis <h1>
-        <h3>by Siddhardha varma (RA2011030010003)</h3>
-        <li>
-            <a href="#">project 1 crime & population dataanalysis</a>
-            <br />
-            <br />
-            <a href="#texxt">project 2 wordcloud</a>
-        </li>
-      <div class='tableauPlaceholder' id='viz1677491846641' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;cr&#47;crime_and_population&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='crime_and_population&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;cr&#47;crime_and_population&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1677491846641');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1500px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1500px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1327px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<body class="bg-blue-200">
+    <p class="text-7xl text-center p-10">Information Vizualization project<p>
+        <p class="text-center text-5xl">by Siddhardha varma (RA2011030010003)</p>
+            <div class="flex p-20 justify-evenly">
+                 <button class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl ">project 1
+                    <br>
+                    crime analysis
+                 </button>
+                 <button class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl ">project 2
+                    <br>
+                    word cloud using d3
+                 </button>
+                 <button class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl ">project 3</button>
+            </div>
+
+            <p class="text-6xl text-center p-10">Project 1</p>
+            <p class="text-5xl p-5 text-center">
+                Crime and population analysis 
+            </p>
+            <div class="p-12 ml-44 mx-auto text-4xl">
+                <p class="">The first chart explains us about the region wise crime detail, the entire country is divided into few regions.</p>
+                <p>The second visualization indicates the number of crimes happening in a state and types of crimes they fall into</p>
+                <p>The map in the third visualization shows the no of crimes of a particular crime type in each state of the country</p>
+                <p>The last one is the comparision of two major parameters which are population and no of crimes</p>
+            </div>
+            <div class='tableauPlaceholder mx-auto' id='viz1678296686553' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;cr&#47;crime_and_population&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;crime_and_population&#47;Dashboard1?:language=en-US&amp;:embed=true&amp;publish=yes' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;cr&#47;crime_and_population&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1678296686553');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='1627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='1627px';} else { vizElement.style.width='100%';vizElement.style.height='1377px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 <div class="container">
 
-<div id="texxt">
-    <h1 id="heading">Word Cloud using D3.js<h1>
-    <p>
+<div id="texxt" class="text-center" >
+    <p class="text-6xl text-center p-10 mt-10">Project 2</p>
+    <h1 id="heading" class="text-5xl p-10">Word Cloud using D3.js<h1>
+    <div class="text-justify ml-[37%] text-3xl">
+        <p class="text-3xl">Instructions :</p>
         1) enter data into the input field 
         <br>
         2) click generate to create a word cloud using the data
-    </p>
-    <input type="text" id="myInput">
-    <button id="submitButton">generate</button>
-    <div id="world-cloud"></div>
+    </div>
+    
 
 </div>
+<div class="ml-[30%] p-10">
+    <input type="text" id="myInput" class="rounded-lg text-3xl w-[500px] h-[100px]" >
+    <br>
+    <button id="submitButton" class="mt-10 bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl ">generate</button>
+    <div class="text-center mx-auto">
+        <div id="world-cloud" class=""></div>
+    </div>
+    
+</div>
+
 </div>
 
 
 <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"/></script>
 <script type="text/javascript" src="https://cdn.rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"/></script>
 <script src="./script.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>
