@@ -7,21 +7,24 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body class="bg-blue-200">
-    <p class="text-7xl text-center p-10">Information Vizualization project<p>
+    <p class="text-7xl text-center p-10" >Information Vizualization project<p>
         <p class="text-center text-5xl">by Siddhardha varma (RA2011030010003)</p>
             <div class="flex p-20 justify-evenly">
-                 <button class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl ">project 1
+                 <button onclick="window.location.href='#f-div'" class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl "> project 1
                     <br>
                     crime analysis
                  </button>
-                 <button class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl ">project 2
+                 <button onclick="window.location.href='#s-div'" class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl ">project 2
                     <br>
                     word cloud using d3
                  </button>
-                 <button class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl ">project 3</button>
+                 <button onclick="window.location.href='#t-div'"class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl ">project 3
+                    <br>
+                    OHLC analysis using python
+                 </button>
             </div>
 
-            <p class="text-6xl text-center p-10">Project 1</p>
+            <p class="text-6xl text-center p-10" id="f-div">Project 1</p>
             <p class="text-5xl p-5 text-center">
                 Crime and population analysis 
             </p>
@@ -35,7 +38,7 @@
 <div class="container">
 
 <div id="texxt" class="text-center" >
-    <p class="text-6xl text-center p-10 mt-10">Project 2</p>
+    <p class="text-6xl text-center p-10 mt-10" id="s-div">Project 2</p>
     <h1 id="heading" class="text-5xl p-10">Word Cloud using D3.js<h1>
     <div class="text-justify ml-[37%] text-3xl">
         <p class="text-3xl">Instructions :</p>
@@ -55,6 +58,14 @@
     </div>
     
 </div>
+<div>
+    <p class="text-6xl text-center p-10 mt-10" id="t-div">Project 3</p>
+    <h1 id="heading" class="text-5xl p-10">OHLC price analysis using python<h1>
+    <div class="mx-auto">
+        <script src="https://gist.github.com/siddhardha123/d045f4d010a6326b68a5b6859c69ee50.js"></script>
+    </div>
+</div>
+
 
 </div>
 
