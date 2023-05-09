@@ -1,27 +1,33 @@
 <html xmlns="html">
     <head>
         <title>info viz</title>
-        <link rel="stylesheet" 
-      href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        
        
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-blue-200">
-    <p class="text-7xl text-center p-10" >Information Vizualization project<p>
+    <p class="text-5xl text-center p-10" >Information Vizualization project<p>
         <p class="text-center text-5xl">by Siddhardha varma (RA2011030010003)</p>
             <div class="flex p-20 justify-evenly">
-                 <button onclick="window.location.href='#f-div'" class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl "> project 1
+                 <button onclick="window.location.href='#f-div'" class="bg-blue-500 text-white rounded-lg px-5 p-2 text-md "> project 1
                     <br>
                     crime analysis
                  </button>
-                 <button onclick="window.location.href='#s-div'" class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl ">project 2
+                 <button onclick="window.location.href='#s-div'" class="bg-blue-500 text-white rounded-lg px-5 p-2 text-md ">project 2
                     <br>
                     word cloud using d3
                  </button>
-                 <button onclick="window.location.href='#t-div'"class="bg-blue-500 text-white rounded-lg px-5 p-2 text-4xl ">project 3
+                 <button onclick="window.location.href='#t-div'"class="bg-blue-500 text-white rounded-lg px-5 p-2 text-md ">project 3
                     <br>
                     OHLC analysis using python
                  </button>
+                 <a href="/lab.html">
+                 <button  class="bg-blue-500 text-white rounded-lg px-5 p-2 text-md ">project 3
+                    <br>
+                    
+                    Crypto currency Analysis 
+                 </button>
+                </a>
             </div>
 
             <p class="text-6xl text-center p-10" id="f-div">Project 1</p>
@@ -58,9 +64,9 @@
     </div>
     
 </div>
-<div>
+<div class="mx-32">
     <p class="text-6xl text-center p-10 mt-10" id="t-div">Project 3</p>
-    <h1 id="heading" class="text-5xl p-10">OHLC price analysis using python<h1>
+    <h1 id="heading" class="text-5xl p-10 ">OHLC price analysis using python<h1>
     <div class="mx-auto">
         <script src="https://gist.github.com/siddhardha123/d045f4d010a6326b68a5b6859c69ee50.js"></script>
     </div>
@@ -70,9 +76,10 @@
 </div>
 
 
-<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"/></script>
+<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
 <script type="text/javascript" src="https://cdn.rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"/></script>
-<script src="./script.js"></script>
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="./script.js"></script>
+
 </body>
 </html>
