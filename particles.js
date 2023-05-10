@@ -71,20 +71,4 @@ update = function () {
 };
 requestAnimationFrame(update);
 
-// script.js
-// Add animation when scrolling
-window.addEventListener("scroll", animateCardsOnScroll);
-
-function animateCardsOnScroll() {
-  var cards = document.querySelectorAll(".card");
-  var windowHeight = window.innerHeight;
-
-  cards.forEach(function (card) {
-    var cardPosition = card.getBoundingClientRect().top;
-
-    if (cardPosition - windowHeight <= 0) {
-      card.classList.add("visible");
-    }
-  });
-}
 
